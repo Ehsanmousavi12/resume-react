@@ -1,0 +1,62 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(177, 177, 177);
+}
+*,
+* {
+  box-sizing: border-box;
+}
+.root1 {
+  width: 80%;
+  height: 400px;
+  background-color: grey;
+  margin-left: 100px;
+  position: absolute;
+  top: 20%;
+  border-radius: 25px;
+}
+.pic {
+  width: 10%;
+  height: 100px;
+  border-radius: 50px;
+  position: absolute;
+  left: 45%;
+  bottom: 85%;
+  border: solid 5px rgb(0, 0, 0);
+}
+.text1 {
+  position: absolute;
+  margin-top: 50px;
+}
+.pictur {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  margin-top: 75px;
+  font-size: 12px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+.up {
+  margin-top: 15px;
+  direction: ltr;
+  position: absolute;
+  left: 1%;
+  text-decoration: dotted;
+  /* display: flex; */
+  /* justify-content: space-around; */
+  /* align-items: center;
+  flex-direction: row; */
+}
+.up div {
+  padding-top: 25px;
+}
+.about-me {
+  width: 20%;
+  height: 5;
+  position: absolute;
+  right: 5%;
+  top: 20%;
+}

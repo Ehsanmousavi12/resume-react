@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+.root {
+  background-color: rgb(63, 130, 132);
+  width: 80%;
+  height: 400px;
+  position: absolute;
+  left: 10%;
+  top: 25%;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px 5px rgb(52, 51, 51);
+}
+.bio {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  position: absolute;
+  top: 20%;
+  left: 40%;
+}
+.Imge {
+  width: 80px;
+  height: 80px;
+  border-radius: 48%;
+  border: 4px rgb(44, 44, 44) solid;
+  margin-bottom: 50px;
+  position: absolute;
+  bottom: 45%;
+}
+.Link {
+  padding-top: 5px;
+}
+.link1 {
+  width: 50px;
+  height: 20px;
+  background-color: rgb(196, 139, 71);
+}
+.name {
+  font-family: "Times New Roman", Times, serif;
+}
